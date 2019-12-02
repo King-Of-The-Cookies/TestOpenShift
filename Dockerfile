@@ -2,7 +2,7 @@ FROM python:3.6.9-stretch
 
 WORKDIR /app
 
-ADD application /app
+ADD . /app
 
 RUN pip install -r app/requirements.txt
 
